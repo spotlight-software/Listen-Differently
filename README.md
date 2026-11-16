@@ -102,7 +102,7 @@ Please include your Windows version, your DAW and its version, and the steps tha
 
 Listen Differently is free. It is developed by one person in their free time. If the plugin helps your mixes, every donation, big or small, means a lot. It helps me spend more time on new features, bug fixes and new plugins.
 
-☕ **[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=HBELKLGCHTUNE)**
+☕ **[Donate via PayPal](https://www.paypal.com/donate/buttons/manage/JTPM49ZXZCQNG?status=SUCCESS)**
 
 Thank you to everyone who supports the project! ❤️
 
