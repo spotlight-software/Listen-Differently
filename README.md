@@ -1,7 +1,7 @@
 # Listen Differently
 The free Listen Differently - mix-monitoring plugin by SpotLight Software
 
-![Listen Differently](Listen Differently.png)
+![Listen Differently](https://github.com/spotlight-software/Listen-Differently/blob/main/Listen%20Differently.png?raw=true)
 
 Listen Differently goes on your master channel and gives you quick monitoring tools while you mix. Compare your mix with a reference track, check the low end, cut frequencies, and switch things on and off with one click, without touching your mix.
 
