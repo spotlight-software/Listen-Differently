@@ -82,7 +82,7 @@ Listen Differently **does not collect or send any personal data**.
 
 - No tracking, no analytics, no ads.
 - No registration, account or email address needed.
-- No blackmail here! Free means free! It's completely free, and I won't ask you to follow my social media accounts or sign up for anything, simply because it's FREE.
+- No blackmail here! Free means free! I won't require you to follow my social media accounts or sign up for anything just to download and use our software/plugin. Because free means f. FREE!
 - All settings are stored only on your computer, in `Documents\SpotLight Software\Settings\`.
 - The plugin connects to the internet **only when you click**:
   - **Check for update** (in the About window): the plugin connects to GitHub only to read the latest version number. No data about you or your computer is sent. You download the new version yourself from the GitHub page.
