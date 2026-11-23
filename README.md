@@ -1,5 +1,5 @@
 # Listen Differently
-The free Listen Differently - mix-monitoring plugin by SpotLight Software
+**Free mix-monitoring plugin by SpotLight Software**
 
 ![Listen Differently](https://github.com/spotlight-software/Listen-Differently/blob/main/Listen%20Differently.png?raw=true)
 
@@ -17,8 +17,6 @@ Listen Differently goes on your master channel and gives you quick monitoring to
 - **Remembers window size** – the plugin opens at the size you left it
 - **Middle-click** any control to reset it to its default value
 
-<!-- Add or remove features here so they match the current version -->
-
 ---
 
 ## Download
@@ -28,6 +26,12 @@ Listen Differently goes on your master channel and gives you quick monitoring to
 1. Open the **Releases** page and download `ListenDifferently.zip`.
 2. Unzip the file.
 
+The zip contains:
+- `Listen Differently.vst3` – the plugin
+- `Open SLS Plugin Folder` – shortcut to the SpotLight Software plugins folder in your Documents
+- `Open SLS VST3 Folder` – shortcut to the SpotLight Software folder in the standard VST3 folder
+- `EULA.txt` – license terms
+
 ---
 
 ## Installation (Windows)
@@ -35,23 +39,37 @@ Listen Differently goes on your master channel and gives you quick monitoring to
 1. Copy `Listen Differently.vst3` to a folder of your choice.
    The plugin can live in any folder. SpotLight Software recommends:
    ```
-   Documents\SpotLight Software\Plugins\
+   Documents\SpotLight Software\Plugins
    ```
    or another private folder of your own. This keeps all SpotLight plugins in one place, makes them easy to find, and needs no administrator rights.
 
    You can also use the standard VST3 folder, which DAWs scan automatically:
    ```
-   C:\Program Files\Common Files\VST3
+   C:\Program Files\Common Files\VST3\SpotLight Software
    ```
-2. If the plugin is not in the standard VST3 folder, add your folder to the list of folders your DAW scans.
-   - **FL Studio:** *Options → Manage plugins → Plugin search paths* → add the folder
-3. Rescan your plugins.
-   - **FL Studio:** *Options → Manage plugins → Find installed plugins*
+2. If the plugin is not in the standard VST3 folder, add your folder to the list of VST3 folders your DAW scans (usually in the DAW's plugin settings).
+   - *Example, FL Studio:* Options → Manage plugins → Plugin search paths → add the folder
+3. Rescan your plugins in your DAW.
+   - *Example, FL Studio:* Options → Manage plugins → Find installed plugins
 4. Put **Listen Differently** on the **master channel**, last in the chain.
 
-### Using a reference track (FL Studio)
-1. Load your reference track on a separate mixer channel.
-2. Route that channel to the master as a **sidechain** (right-click the route arrow → *Sidechain to this track only*).
+### Shortcuts to the plugin folders
+
+The zip includes two shortcuts that take you straight to the right folder. If the folder does not exist yet, the shortcut creates it first and then opens it.
+
+| Shortcut | Opens |
+|---|---|
+| **Open SLS Plugin Folder** | `Documents\SpotLight Software\Plugins` |
+| **Open SLS VST3 Folder** | `C:\Program Files\Common Files\VST3\SpotLight Software` |
+
+- **Open SLS Plugin Folder** always finds your Documents folder, even if you moved it to another drive.
+- ⚠️ **The shortcuts only open the folder. They do not copy the plugin.** Copy `Listen Differently.vst3` into the opened folder yourself.
+- **Open SLS VST3 Folder** needs administrator rights, because it creates a folder inside Program Files. Windows will ask for permission. Click **Yes**.
+
+### Using a reference track
+1. Load your reference track on a separate track or mixer channel in your DAW.
+2. Send that channel to the plugin's **sidechain input** on the master channel. How you do this depends on your DAW.
+   - *Example, FL Studio:* right-click the route arrow → *Sidechain to this track only*
 3. In the plugin, select the sidechain input as the reference.
 
 ---
@@ -59,7 +77,7 @@ Listen Differently goes on your master channel and gives you quick monitoring to
 ## Requirements
 
 - Windows 10 / 11 (64-bit)
-- A DAW that supports VST3 (tested in FL Studio)
+- Any DAW that supports VST3 plugins (tested in FL Studio)
 
 ---
 
@@ -82,7 +100,7 @@ Listen Differently **does not collect or send any personal data**.
 
 - No tracking, no analytics, no ads.
 - No registration, account or email address needed.
-- No blackmail here! Free means free! I won't require you to follow my social media accounts or sign up for anything just to download and use our software/plugin. Because free means f. FREE!
+- No strings attached. You don't have to follow any social media accounts or sign up for anything to download and use the plugin. Free means free!
 - All settings are stored only on your computer, in `Documents\SpotLight Software\Settings\`.
 - The plugin connects to the internet **only when you click**:
   - **Check for update** (in the About window): the plugin connects to GitHub only to read the latest version number. No data about you or your computer is sent. You download the new version yourself from the GitHub page.
